@@ -1,7 +1,7 @@
 {
   "appName": "hello-prod",
   "userGivenName": "hello-prod",
-  "destNamespace": "default",
+  "destNamespace": "prod",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/hello-world/overlays/prod",
   "srcRepoURL": "https://github.com/cferrera/argocd-autopilot.git",
