@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  labels:
+    app: webapp-test
   name: simple-deployment
 spec:
   selector:
