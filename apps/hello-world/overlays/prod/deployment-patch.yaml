@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-deployment
+spec:
+  selector:
+    matchLabels:
+      app: webapp-prod
+  template:
+    metadata:
+      labels:
+        app: webapp-prod
