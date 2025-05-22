@@ -1,13 +1,13 @@
 {
-  "appName": "hello-world",
-  "userGivenName": "hello-world",
+  "appName": "hello-prod",
+  "userGivenName": "hello-prod",
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/hello-world/overlays/testing",
+  "srcPath": "apps/hello-world/overlays/prod",
   "srcRepoURL": "https://github.com/cferrera/argocd-autopilot.git",
   "srcTargetRevision": "",
   "labels": {
-    "app": "webapp-testing"
+    "app": "webapp-prod"
   },
   "annotations": null
 }
